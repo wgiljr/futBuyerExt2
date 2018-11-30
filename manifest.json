@@ -2,5 +2,12 @@
     "name": "Fut Buyer Extension2",
     "version": "2.0",
     "description": "Buy players faster on FuT (FIFA)",
-    "manifest_version": 2
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/futBuyer_icon_128.png"
+    },
+
+    "permissions": ["tabs", "<all_urls>"]
   }
